@@ -21,7 +21,7 @@ export async function generateMetadata({
   const product = getProduct(slug);
   if (!product) return {};
   return {
-    title: `${product.name} — Monolith Tiles`,
+    title: `${product.name} — RSKOBI INTERNATIONAL`,
     description: product.description,
   };
 }

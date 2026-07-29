@@ -7,12 +7,12 @@ import { MapPlaceholder } from '@/components/sections/MapPlaceholder';
 import { Reveal } from '@/components/ui/Reveal';
 
 export const metadata: Metadata = {
-  title: 'Contact — Monolith Tiles',
-  description: 'Get in touch with the Monolith Tiles team for samples, quotes and showroom visits.',
+  title: 'Contact — RSKOBI INTERNATIONAL',
+  description: 'Get in touch with the RSKOBI INTERNATIONAL team for samples, quotes and showroom visits.',
 };
 
 const details = [
-  { icon: Mail, label: 'Email', value: 'hello@monolithtiles.com' },
+  { icon: Mail, label: 'Email', value: 'hello@rskobiinternational.com' },
   { icon: Phone, label: 'Phone', value: '+1 (800) 555-1234' },
   { icon: Clock, label: 'Showroom hours', value: 'Mon–Fri, 9am–5:30pm' },
 ];

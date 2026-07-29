@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Monolith Tiles — Porcelain, Marble & Stone Surfaces',
+  title: 'RSKOBI INTERNATIONAL — Porcelain, Marble & Stone Surfaces',
   description:
     'A studio-grade tile company crafting porcelain, marble, mosaic, terrazzo, ceramic and large-format stone surfaces for architects and designers.',
 };

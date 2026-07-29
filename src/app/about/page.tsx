@@ -7,8 +7,8 @@ import { Stats } from '@/components/sections/Stats';
 import { CTA } from '@/components/sections/CTA';
 
 export const metadata: Metadata = {
-  title: 'About — Monolith Tiles',
-  description: 'Monolith Tiles supplies porcelain, marble and stone surfaces directly from quarry to architect.',
+  title: 'About — RSKOBI INTERNATIONAL',
+  description: 'RSKOBI INTERNATIONAL supplies porcelain, marble and stone surfaces directly from quarry to architect.',
 };
 
 export default function AboutPage() {

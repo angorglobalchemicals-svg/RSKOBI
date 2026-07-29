@@ -3,7 +3,7 @@ import { PageHero } from '@/components/sections/PageHero';
 import { ProductsGrid } from '@/components/sections/ProductsGrid';
 
 export const metadata: Metadata = {
-  title: 'Collections — Monolith Tiles',
+  title: 'Collections — RSKOBI INTERNATIONAL',
   description: 'Browse porcelain, marble, mosaic, terrazzo, ceramic and large-format stone tile collections.',
 };
 

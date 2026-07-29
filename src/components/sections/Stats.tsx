@@ -41,7 +41,7 @@ export function Stats() {
     <section className="bg-grey-900 py-24 text-white sm:py-32">
       <Container>
         <SectionHeading
-          eyebrow="Why Monolith"
+          eyebrow="Why RSKOBI INTERNATIONAL"
           title="Built on material honesty and delivery you can plan around."
           dark
           className="mb-16"

@@ -10,7 +10,7 @@ export function MapPlaceholder() {
         backgroundSize: '32px 32px',
       }}
       role="img"
-      aria-label="Map showing the Monolith Tiles showroom location"
+      aria-label="Map showing the RSKOBI INTERNATIONAL showroom location"
     >
       <div className="flex flex-col items-center gap-3">
         <span className="flex size-14 items-center justify-center rounded-full bg-grey-900 text-white shadow-lg">

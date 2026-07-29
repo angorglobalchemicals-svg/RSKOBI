@@ -9,7 +9,7 @@ export function BrandStory() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-5">
             <p className="text-balance text-3xl leading-[1.2] font-bold tracking-tight text-grey-900 sm:text-4xl">
-              Monolith started in a quarry office, not a showroom. That order hasn&rsquo;t changed.
+              RSKOBI INTERNATIONAL started in a quarry office, not a showroom. That order hasn&rsquo;t changed.
             </p>
           </Reveal>
           <Reveal delay={0.1} className="flex flex-col gap-6 lg:col-span-6 lg:col-start-7">
@@ -34,7 +34,7 @@ export function BrandStory() {
         <Reveal delay={0.15} className="relative mt-20 aspect-[21/9] overflow-hidden rounded-2xl bg-grey-100">
           <Image
             src="https://picsum.photos/seed/about-monolith-studio/2000/900"
-            alt="Monolith Tiles studio and material library"
+            alt="RSKOBI INTERNATIONAL studio and material library"
             fill
             sizes="100vw"
             className="object-cover"

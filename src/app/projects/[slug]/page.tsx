@@ -21,7 +21,7 @@ export async function generateMetadata({
   const project = getProject(slug);
   if (!project) return {};
   return {
-    title: `${project.title} — Monolith Tiles`,
+    title: `${project.title} — RSKOBI INTERNATIONAL`,
     description: project.description,
   };
 }

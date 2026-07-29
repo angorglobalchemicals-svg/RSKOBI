@@ -50,8 +50,8 @@ export function Header() {
       >
         <Container>
           <div className="flex h-20 items-center justify-between md:h-24">
-            <Link href="/" className="text-lg font-bold tracking-tight text-grey-900 md:text-xl">
-              MONOLITH
+            <Link href="/" className="whitespace-nowrap text-base font-bold tracking-tight text-grey-900 md:text-xl">
+              RSKOBI INTERNATIONAL
             </Link>
 
             <nav className="hidden items-center gap-10 md:flex">
@@ -127,8 +127,8 @@ export function Header() {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="mt-16 flex flex-col gap-2 border-t border-white/10 pt-8 text-sm text-grey-400 sm:flex-row sm:gap-10"
               >
-                <a href="mailto:hello@monolithtiles.com" className="hover:text-white">
-                  hello@monolithtiles.com
+                <a href="mailto:hello@rskobiinternational.com" className="hover:text-white">
+                  hello@rskobiinternational.com
                 </a>
                 <a href="tel:+18005551234" className="hover:text-white">
                   +1 (800) 555-1234

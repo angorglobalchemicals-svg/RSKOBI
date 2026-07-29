@@ -3,8 +3,8 @@ import { PageHero } from '@/components/sections/PageHero';
 import { ProjectsGrid } from '@/components/sections/ProjectsGrid';
 
 export const metadata: Metadata = {
-  title: 'Projects — Monolith Tiles',
-  description: 'Residential, hospitality and commercial projects specified from the Monolith Tiles catalogue.',
+  title: 'Projects — RSKOBI INTERNATIONAL',
+  description: 'Residential, hospitality and commercial projects specified from the RSKOBI INTERNATIONAL catalogue.',
 };
 
 export default function ProjectsPage() {
