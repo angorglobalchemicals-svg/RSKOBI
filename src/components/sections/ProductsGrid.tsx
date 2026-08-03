@@ -1,14 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { cn } from '@/lib/utils';
 import { collections } from '@/data/collections';
 import { products } from '@/data/products';
+import { ProductCard } from './ProductCard';
 
 export function ProductsGrid() {
   const [active, setActive] = useState<string>('all');
@@ -56,31 +54,7 @@ export function ProductsGrid() {
                 exit={{ opacity: 0, y: -12 }}
                 transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
               >
-                <Link href={`/collections/${product.slug}`} className="group block">
-                  <div className="relative mb-5 aspect-square overflow-hidden rounded-2xl bg-grey-100">
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      fill
-                      sizes="(min-width: 1024px) 25vw, 50vw"
-                      className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 flex items-end justify-end p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                      <span className="flex size-11 items-center justify-center rounded-full bg-white text-grey-900">
-                        <ArrowUpRight className="size-5" />
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <p className="mb-1 text-xs font-medium tracking-[0.15em] text-grey-400 uppercase">
-                        {product.collection}
-                      </p>
-                      <h3 className="text-lg font-semibold tracking-tight text-grey-900">{product.name}</h3>
-                    </div>
-                    <span className="shrink-0 text-sm text-grey-400">{product.priceFrom}</span>
-                  </div>
-                </Link>
+                <ProductCard product={product} />
               </motion.div>
             ))}
           </AnimatePresence>
