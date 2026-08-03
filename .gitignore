@@ -44,4 +44,4 @@ yarn-error.log*
 *.msi
 *.dmg
 /source-assets/
-/SATUARIO GLOSSY 1200x600.pdf
+/*.pdf

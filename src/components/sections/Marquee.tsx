@@ -1,4 +1,4 @@
-const items = ['Porcelain', 'Marble', 'Mosaic', 'Terrazzo', 'Ceramic', 'Large Format Stone'];
+const items = ['SL SPHERA', 'Marble', 'Mosaic', 'Terrazzo', 'Ceramic', 'Large Format Stone'];
 
 export function Marquee() {
   const doubled = [...items, ...items];

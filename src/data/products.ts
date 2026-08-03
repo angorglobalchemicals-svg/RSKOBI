@@ -16,8 +16,8 @@ export const products: Product[] = [
   {
     slug: 'onda-grigio',
     name: 'Onda Grigio',
-    collectionSlug: 'porcelain',
-    collection: 'Porcelain',
+    collectionSlug: 'sl-sphera',
+    collection: 'SL SPHERA',
     image: 'https://picsum.photos/seed/onda-grigio/1400/1750',
     gallery: [
       'https://picsum.photos/seed/onda-grigio-1/1600/1200',
@@ -34,8 +34,8 @@ export const products: Product[] = [
   {
     slug: 'pietra-nera',
     name: 'Pietra Nera',
-    collectionSlug: 'porcelain',
-    collection: 'Porcelain',
+    collectionSlug: 'sl-sphera',
+    collection: 'SL SPHERA',
     image: 'https://picsum.photos/seed/pietra-nera/1400/1750',
     gallery: [
       'https://picsum.photos/seed/pietra-nera-1/1600/1200',

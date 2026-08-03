@@ -16,7 +16,7 @@ const columns = [
   {
     title: 'Collections',
     links: [
-      { href: '/collections/porcelain', label: 'Porcelain' },
+      { href: '/collections/sl-sphera', label: 'SL SPHERA' },
       { href: '/collections/marble', label: 'Marble' },
       { href: '/collections/mosaic', label: 'Mosaic' },
       { href: '/collections/terrazzo', label: 'Terrazzo' },

@@ -9,12 +9,12 @@ export type Collection = {
 
 export const collections: Collection[] = [
   {
-    slug: 'porcelain',
-    name: 'Porcelain',
+    slug: 'sl-sphera',
+    name: 'SL SPHERA',
     tagline: 'Dense, durable, precise',
     description:
       'Fully vitrified porcelain bodies engineered for high-traffic interiors and exteriors, with a hardness that resists wear for decades.',
-    image: 'https://picsum.photos/seed/porcelain-collection/1600/2000',
+    image: '/images/collections/sl-sphera.png',
     count: 24,
   },
   {

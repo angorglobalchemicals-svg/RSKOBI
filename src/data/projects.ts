@@ -27,7 +27,7 @@ export const projects: Project[] = [
       'A cliffside residence using large-format porcelain across open-plan living floors, chosen to read as a single continuous plane against the harbour view.',
     stats: [
       { label: 'Area', value: '420 m²' },
-      { label: 'Collection', value: 'Porcelain' },
+      { label: 'Collection', value: 'SL SPHERA' },
       { label: 'Completed', value: '2025' },
     ],
   },
