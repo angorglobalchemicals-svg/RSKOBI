@@ -45,3 +45,5 @@ yarn-error.log*
 *.dmg
 /source-assets/
 /*.pdf
+/*.zip
+/SL_SPHERA_Collectionphotos/

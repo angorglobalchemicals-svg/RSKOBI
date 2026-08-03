@@ -15,7 +15,7 @@ export const collections: Collection[] = [
     description:
       'Fully vitrified porcelain bodies engineered for high-traffic interiors and exteriors, with a hardness that resists wear for decades.',
     image: '/images/collections/sl-sphera.png',
-    count: 24,
+    count: 70,
   },
   {
     slug: 'marble',

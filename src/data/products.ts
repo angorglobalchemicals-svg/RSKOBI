@@ -1,3 +1,5 @@
+import { slSpheraProducts } from './sl-sphera-products';
+
 export type Product = {
   slug: string;
   name: string;
@@ -13,42 +15,7 @@ export type Product = {
 };
 
 export const products: Product[] = [
-  {
-    slug: 'onda-grigio',
-    name: 'Onda Grigio',
-    collectionSlug: 'sl-sphera',
-    collection: 'SL SPHERA',
-    image: 'https://picsum.photos/seed/onda-grigio/1400/1750',
-    gallery: [
-      'https://picsum.photos/seed/onda-grigio-1/1600/1200',
-      'https://picsum.photos/seed/onda-grigio-2/1600/1200',
-      'https://picsum.photos/seed/onda-grigio-3/1600/1200',
-    ],
-    description:
-      'A wave-textured porcelain body in cool grey, rectified for tight joints and engineered for both floor and wall application.',
-    sizes: ['600 × 600mm', '600 × 1200mm', '300 × 600mm'],
-    finishes: ['Matte', 'Textured'],
-    thickness: '9.5mm',
-    priceFrom: '$68 / m²',
-  },
-  {
-    slug: 'pietra-nera',
-    name: 'Pietra Nera',
-    collectionSlug: 'sl-sphera',
-    collection: 'SL SPHERA',
-    image: 'https://picsum.photos/seed/pietra-nera/1400/1750',
-    gallery: [
-      'https://picsum.photos/seed/pietra-nera-1/1600/1200',
-      'https://picsum.photos/seed/pietra-nera-2/1600/1200',
-      'https://picsum.photos/seed/pietra-nera-3/1600/1200',
-    ],
-    description:
-      'Near-black stone-look porcelain with a honed surface, designed for architectural floors that need to disappear underfoot.',
-    sizes: ['800 × 800mm', '600 × 1200mm'],
-    finishes: ['Honed', 'Polished'],
-    thickness: '10mm',
-    priceFrom: '$74 / m²',
-  },
+  ...slSpheraProducts,
   {
     slug: 'calacatta-oro',
     name: 'Calacatta Oro',

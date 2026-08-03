@@ -20,21 +20,23 @@ export function ProductGallery({ images, name }: { images: string[]; name: strin
           className="object-cover"
         />
       </div>
-      <div className="flex gap-3">
-        {images.map((img, i) => (
-          <button
-            key={img}
-            onClick={() => setActive(i)}
-            className={cn(
-              'relative h-20 w-28 shrink-0 overflow-hidden rounded-lg bg-grey-100 ring-2 ring-offset-2 transition-all',
-              active === i ? 'ring-grey-900' : 'ring-transparent',
-            )}
-            aria-label={`View ${name} image ${i + 1}`}
-          >
-            <Image src={img} alt="" fill sizes="112px" className="object-cover" />
-          </button>
-        ))}
-      </div>
+      {images.length > 1 && (
+        <div className="flex gap-3">
+          {images.map((img, i) => (
+            <button
+              key={img}
+              onClick={() => setActive(i)}
+              className={cn(
+                'relative h-20 w-28 shrink-0 overflow-hidden rounded-lg bg-grey-100 ring-2 ring-offset-2 transition-all',
+                active === i ? 'ring-grey-900' : 'ring-transparent',
+              )}
+              aria-label={`View ${name} image ${i + 1}`}
+            >
+              <Image src={img} alt="" fill sizes="112px" className="object-cover" />
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

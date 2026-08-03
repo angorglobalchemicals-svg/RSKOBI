@@ -44,7 +44,7 @@ export function ProductsGrid() {
 
         <motion.div
           layout
-          className="grid grid-cols-1 gap-x-6 gap-y-14 sm:grid-cols-2 lg:grid-cols-3"
+          className="grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 sm:gap-y-14 lg:grid-cols-4"
         >
           <AnimatePresence mode="popLayout">
             {filtered.map((product) => (
@@ -57,12 +57,12 @@ export function ProductsGrid() {
                 transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
               >
                 <Link href={`/collections/${product.slug}`} className="group block">
-                  <div className="relative mb-5 aspect-[4/5] overflow-hidden rounded-2xl bg-grey-100">
+                  <div className="relative mb-5 aspect-square overflow-hidden rounded-2xl bg-grey-100">
                     <Image
                       src={product.image}
                       alt={product.name}
                       fill
-                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                      sizes="(min-width: 1024px) 25vw, 50vw"
                       className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                     <div className="absolute inset-0 flex items-end justify-end p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
