@@ -76,8 +76,8 @@ export function Footer() {
         <div className="flex flex-col gap-4 pt-8 text-xs text-grey-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} RSKOBI INTERNATIONAL. All rights reserved.</p>
           <div className="flex gap-6">
-            <span>123 Foundry Lane, Auckland</span>
-            <span>hello@rskobiinternational.com</span>
+            <span>6 Obi Ln, GRA, Onitsha 434106, Anambra, Nigeria</span>
+            <span>rskobi@rskobiinternational.com</span>
           </div>
         </div>
       </Container>

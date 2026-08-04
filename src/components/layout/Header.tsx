@@ -127,8 +127,8 @@ export function Header() {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="mt-16 flex flex-col gap-2 border-t border-white/10 pt-8 text-sm text-grey-400 sm:flex-row sm:gap-10"
               >
-                <a href="mailto:hello@rskobiinternational.com" className="hover:text-white">
-                  hello@rskobiinternational.com
+                <a href="mailto:rskobi@rskobiinternational.com" className="hover:text-white">
+                  rskobi@rskobiinternational.com
                 </a>
                 <a href="tel:+18005551234" className="hover:text-white">
                   +1 (800) 555-1234

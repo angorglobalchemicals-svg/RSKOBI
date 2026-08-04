@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import { Clock, Mail, Phone } from 'lucide-react';
+import { Clock, Mail, MapPin, Phone } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { PageHero } from '@/components/sections/PageHero';
 import { ContactForm } from '@/components/sections/ContactForm';
-import { MapPlaceholder } from '@/components/sections/MapPlaceholder';
+import { ShowroomMap } from '@/components/sections/ShowroomMap';
 import { Reveal } from '@/components/ui/Reveal';
 
 export const metadata: Metadata = {
@@ -12,8 +12,9 @@ export const metadata: Metadata = {
 };
 
 const details = [
-  { icon: Mail, label: 'Email', value: 'hello@rskobiinternational.com' },
+  { icon: Mail, label: 'Email', value: 'rskobi@rskobiinternational.com' },
   { icon: Phone, label: 'Phone', value: '+1 (800) 555-1234' },
+  { icon: MapPin, label: 'Address', value: '6 Obi Ln, GRA, Onitsha 434106, Anambra, Nigeria' },
   { icon: Clock, label: 'Showroom hours', value: 'Mon–Fri, 9am–5:30pm' },
 ];
 
@@ -35,7 +36,7 @@ export default function ContactPage() {
 
             <div className="flex flex-col gap-10 lg:col-span-5 lg:col-start-8">
               <Reveal delay={0.1}>
-                <MapPlaceholder />
+                <ShowroomMap />
               </Reveal>
 
               <Reveal delay={0.15} className="flex flex-col gap-6 border-t border-grey-100 pt-8">
