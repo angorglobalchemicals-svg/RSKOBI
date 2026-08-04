@@ -21,12 +21,9 @@ export function ProductCard({ product, priority = false }: { product: Product; p
           </span>
         </div>
       </div>
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <p className="mb-1 text-xs font-medium tracking-[0.15em] text-grey-400 uppercase">{product.collection}</p>
-          <h3 className="text-lg font-semibold tracking-tight text-grey-900">{product.name}</h3>
-        </div>
-        <span className="shrink-0 text-sm text-grey-400">{product.priceFrom}</span>
+      <div>
+        <p className="mb-1 text-xs font-medium tracking-[0.15em] text-grey-400 uppercase">{product.collection}</p>
+        <h3 className="text-lg font-semibold tracking-tight text-grey-900">{product.name}</h3>
       </div>
     </Link>
   );
