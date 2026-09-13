@@ -26,7 +26,7 @@ export function FeaturedCollections() {
         <SectionHeading
           eyebrow="Collections"
           title="Six material families, one architectural standard."
-          description="Every collection is engineered for a different structural and aesthetic brief — browse by material to find your specification."
+          description="Every collection is engineered for a different structural and aesthetic brief — browse our material to find your specification."
           className="mb-16"
         />
 
